@@ -1,0 +1,52 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["64c1106b3e3f0722.olean"],
+  "m": false,
+  "i": "a671bb75147fb91f.ilean",
+  "c": "bfbef67269fc0b7e.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/hollow/Documents/git/whichroot/mobius/lean/.lake/packages/Cli/.lake/build/lib/lean:/Users/hollow/Documents/git/whichroot/mobius/lean/.lake/packages/batteries/.lake/build/lib/lean:/Users/hollow/Documents/git/whichroot/mobius/lean/.lake/packages/Qq/.lake/build/lib/lean:/Users/hollow/Documents/git/whichroot/mobius/lean/.lake/packages/aesop/.lake/build/lib/lean:/Users/hollow/Documents/git/whichroot/mobius/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/hollow/Documents/git/whichroot/mobius/lean/.lake/packages/importGraph/.lake/build/lib/lean:/Users/hollow/Documents/git/whichroot/mobius/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/hollow/Documents/git/whichroot/mobius/lean/.lake/packages/plausible/.lake/build/lib/lean:/Users/hollow/Documents/git/whichroot/mobius/lean/.lake/packages/mathlib/.lake/build/lib/lean:/Users/hollow/Documents/git/whichroot/mobius/lean/.lake/build/lib/lean /Users/hollow/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean /Users/hollow/Documents/git/whichroot/mobius/lean/Mobius/Partner.lean -o /Users/hollow/Documents/git/whichroot/mobius/lean/.lake/build/lib/lean/Mobius/Partner.olean -i /Users/hollow/Documents/git/whichroot/mobius/lean/.lake/build/lib/lean/Mobius/Partner.ilean -c /Users/hollow/Documents/git/whichroot/mobius/lean/.lake/build/ir/Mobius/Partner.c --setup /Users/hollow/Documents/git/whichroot/mobius/lean/.lake/build/ir/Mobius/Partner.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "Mobius/Partner.lean:217:0: 'Mobius.partner' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "level": "info"},
+  {"message":
+   "Mobius/Partner.lean:218:0: 'Mobius.partner_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "level": "info"},
+  {"message":
+   "Mobius/Partner.lean:219:0: 'Mobius.density' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "level": "info"},
+  {"message":
+   "Mobius/Partner.lean:220:0: 'Mobius.decim_genEigenspace' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "level": "info"},
+  {"message":
+   "Mobius/Partner.lean:221:0: 'Mobius.eq_zero_of_consecutive_vanish' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "level": "info"}],
+ "inputs":
+ [["Mobius.Partner:deps",
+   [["deps",
+     [["Mobius/Mobius:extraDep", [["@Mobius:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["Mobius.Spectral.Basic transitive imports (legacy)",
+         "6363f2d530f5bd05"],
+        ["Mobius.Spectral.Basic:importAllArts", "02ad30be8fa01837"],
+        ["Mobius.Spectral.Structure transitive imports (legacy)",
+         "6732a3bb72921b77"],
+        ["Mobius.Spectral.Structure:importAllArts", "adae6af7885cc6f7"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.31.0, commit 68218e876d2a38b1985b8590fff244a83c321783",
+   "fc45ac412f28501c"],
+  ["/Users/hollow/Documents/git/whichroot/mobius/lean/Mobius/Partner.lean",
+   "a787f46d412df3f6"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: Mobius.Partner", "e944235b7d78ac27"],
+  ["Package.id?: (some Mobius)", "e99ffa8924568bf4"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "ba63d13b1001c831"}
